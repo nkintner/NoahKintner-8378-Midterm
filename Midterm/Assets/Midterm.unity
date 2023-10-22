@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 157774154}
   - component: {fileID: 157774153}
   m_Layer: 0
-  m_Name: Capsule (1)
+  m_Name: FOVEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2772,7 +2772,7 @@ GameObject:
   - component: {fileID: 225451600}
   - component: {fileID: 225451599}
   m_Layer: 0
-  m_Name: Collectable
+  m_Name: CollectableOnPlat
   m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36846,7 +36846,7 @@ Transform:
   m_GameObject: {fileID: 225451598}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.58, y: 1.5064, z: 8.89}
+  m_LocalPosition: {x: -1.77, y: 3.25, z: 8.89}
   m_LocalScale: {x: 2.9887, y: 2.9887, z: 2.9887}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37811,7 +37811,7 @@ GameObject:
   - component: {fileID: 380452317}
   - component: {fileID: 380452316}
   m_Layer: 0
-  m_Name: CollectableonPlat
+  m_Name: CollectableNextToEnemy
   m_TagString: Collectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71885,7 +71885,7 @@ Transform:
   m_GameObject: {fileID: 380452315}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.45, y: 2.25, z: -7.85}
+  m_LocalPosition: {x: 14.6, y: 2.25, z: 9.22}
   m_LocalScale: {x: 2.9887, y: 2.9887, z: 2.9887}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73765,7 +73765,7 @@ GameObject:
   - component: {fileID: 696510257}
   - component: {fileID: 696510256}
   m_Layer: 0
-  m_Name: Capsule (2)
+  m_Name: FOVDoorEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74842,7 +74842,7 @@ Transform:
   m_GameObject: {fileID: 858084168}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.81, y: 1, z: -5}
+  m_LocalPosition: {x: 21.88, y: 1, z: -5}
   m_LocalScale: {x: 0.15091, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76555,7 +76555,7 @@ GameObject:
   - component: {fileID: 1308044666}
   - component: {fileID: 1308044665}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: PlatEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77957,7 +77957,8 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"feet","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"isGrounded","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GroundChecker","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"JumpHeight","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 242454776}
 --- !u!143 &1679286422
@@ -77998,7 +77999,6 @@ GameObject:
   - component: {fileID: 1714131564}
   - component: {fileID: 1714131563}
   - component: {fileID: 1714131567}
-  - component: {fileID: 1714131566}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -78080,22 +78080,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1679286419}
   m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
---- !u!114 &1714131566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1714131562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 4a03c972886945045a74089c6edb9035, type: 2}
 --- !u!114 &1714131567
 MonoBehaviour:
   m_ObjectHideFlags: 0
