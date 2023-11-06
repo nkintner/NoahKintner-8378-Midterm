@@ -97289,7 +97289,7 @@ GameObject:
   - component: {fileID: 1402963979}
   - component: {fileID: 1402963978}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: CharacterWithDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100966,7 +100966,12 @@ MonoBehaviour:
     - To fire press the F Key
 
     - To jump press the
-    Space Bar'
+    Space Bar
+
+    - To talk to the box Press T
+
+    - To pull this menu back up
+    press M'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
