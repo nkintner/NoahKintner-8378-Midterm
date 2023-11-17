@@ -6,6 +6,8 @@ TagManager:
   tags:
   - terrain
   - Collectable
+  - Door
+  - Ammo
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - Water
   - UI
   - Collectable
-  - 
+  - Enemy
   - 
   - 
   - 
